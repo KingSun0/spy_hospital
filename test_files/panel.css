@@ -1,0 +1,290 @@
+@charset "gb18030";
+/*介绍模块样式*/
+.panelA_blue {
+	width:100%;
+	margin-bottom:5px;
+}
+.panelA_blue .toptr {
+	width:100%;
+	height:44px;
+	background:url(../images/panelA_blue01.gif) top right no-repeat;
+}
+.panelA_blue .toptr li {
+	float:left;
+	height:44px;
+	background:url(../images/panelA_blue02.gif) top right no-repeat;
+	margin:0;
+	white-space: nowrap;
+	list-style-type:none;
+}
+.panelA_blue .toptr .item p {
+	display: block;
+	float:left;
+	background:url(../images/panelA_blue04.gif) top left no-repeat;
+	padding: 5px 35px 0px 20px;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 39px;
+	height:39px;
+}
+.panelA_blue .midtr {
+	width:100%;
+	background:url(../images/panelA_blue05.gif) right repeat-y;
+}
+.panelA_blue .midtr .lt {
+	width:545px;
+	padding:5px 5px 0 20px;
+	background:url(../images/panelA_blue06.gif) left repeat-y;
+}
+.panelA_blue .bottr {
+	width:100%;
+	height:15px;
+	background:url(../images/panelA_blue07.gif) top right no-repeat;
+	font-size:0px;
+}
+.panelA_blue .bottr .lt {
+	width:15px;
+	height:15px;
+	background:url(../images/panelA_blue08.gif) top left no-repeat;
+}
+/*模块样式B*/
+.panelB_blue {
+	width:100%;
+	margin-bottom:5px;
+}
+.panelB_blue .toptr {
+	width:100%;
+	height:38px;
+	background:url(../images/panelB_blue01.gif) right no-repeat;
+}
+.panelB_blue .toptr .lt {
+	float:left;
+	height:38px;
+	background:url(../images/panelB_blue02.gif) left no-repeat;
+	padding-left:15px;
+}
+.panelB_blue .toptr .lt li.current_item {
+	float:left;
+	height:38px;
+	background:url(../images/panelB_blue03.gif) top right no-repeat;
+	margin:0 3px 0 0;
+	white-space: nowrap;
+	list-style-type:none;
+}
+.panelB_blue .toptr .lt .current_item a {
+	color:#098BCE;
+	float:left;
+	display: block;
+	background:url(../images/panelB_blue04.gif) top left no-repeat;
+	padding: 14px 12px 0px 12px;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 22px;
+	height:24px;
+	text-decoration:none;
+}
+.panelB_blue .toptr .lt .current_item span {
+	color:#098BCE;
+	float:left;
+	display: block;
+	padding: 14px 12px 0px 0px;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 22px;
+	height:24px;
+	text-decoration:none;
+}
+
+.panelB_blue .toptr .lt li {
+	float:left;
+	height:38px;
+	background:url(../images/panelB_blue10.gif) top right no-repeat;
+	margin:0 3px 0 0;
+	white-space: nowrap;
+	list-style-type:none;
+}
+.panelB_blue .toptr .lt .item a {
+	float:left;
+	color:#098BCE;
+	display: block;
+	background:url(../images/panelB_blue09.gif) top left no-repeat;
+	padding: 14px 12px 0px 12px;
+	font-size:14px;
+	line-height: 22px;
+	height:24px;
+	text-decoration:underline;
+}
+.panelB_blue .midtr {
+	width:100%;
+	background:url(../images/panelB_blue05.gif) right repeat-y;
+}
+.panelB_blue .midtr .lt {
+	width:555px;
+	padding:5px 5px 0px 20px;
+	background:url(../images/panelB_blue06.gif) left repeat-y;
+}
+.panelB_blue .bottr {
+	width:100%;
+	height:9px;
+	background:url(../images/panelB_blue07.gif) top right no-repeat;
+	font-size:0px;
+}
+.panelB_blue .bottr .lt {
+	width:15px;
+	height:9px;
+	background:url(../images/panelB_blue08.gif) top left no-repeat;
+}
+/*模块样式c*/
+.panelC_orange {
+	width:100%;
+	margin-bottom:5px;
+}
+.panelC_orange .toptr {
+	width:100%;
+	height:40px;
+	background:url(../images/panelC_orange01.gif) right no-repeat;
+}
+.panelC_orange .toptr .lt {
+	float:left;
+	height:40px;
+	background:url(../images/panelC_orange02.gif) left no-repeat;
+	padding-left:15px;
+}
+.panelC_orange .toptr .lt li {
+	color:#999;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	height:16px;
+	white-space: nowrap;
+	list-style-type:none;
+	background:url(../images/orange_title.gif) no-repeat 0px 20px;
+	padding:24px 0px 0px 18px;
+	line-height:16px;
+}
+.panelC_orange .midtr {
+	width:100%;
+	background:url(../images/panelC_orange03.gif) right repeat-y;
+}
+.panelC_orange .midtr .lt {
+	width:334px;
+	padding:8px 5px 0px 18px;
+	background:url(../images/panelC_orange04.gif) left repeat-y;
+}
+.panelC_orange .bottr {
+	width:100%;
+	height:9px;
+	background:url(../images/panelC_orange05.gif) top right no-repeat;
+	font-size:0px;
+}
+.panelC_orange .bottr .lt {
+	width:15px;
+	height:9px;
+	background:url(../images/panelC_orange06.gif) top left no-repeat;
+}
+/*模块样式D*/
+.panelD_blue {	
+	width:579px;
+	margin-bottom:5px;
+	padding:0px 3px 0px 3px;
+}
+.panelD_blue .toptr {
+	width:100%;
+	height:30px;
+	border-bottom:2px #098bce solid;
+	}
+.panelD_blue .toptr li.current_item {
+	float:left;
+	height:30px;
+	background:url(../images/panelD_blue01.gif) top right no-repeat;
+	margin:0 0 0 5px;
+	white-space: nowrap;
+	list-style-type:none;
+}
+.panelD_blue .toptr .current_item p {
+	color:#FFFFFF;
+	float:left;
+	display: block;
+	background:url(../images/panelD_blue02.gif) top left no-repeat;
+	padding: 7px 12px 0px 12px;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 22px;
+	height:23px;
+}
+	
+/*头部样式*/
+#headpA_blue {
+	width:100%;
+	height:69px;
+	background:url(../images/headpA_blue01.gif) no-repeat;
+}
+#headpA_blue #ltb {
+	width:470px;
+	float:left;
+	padding-left:30px;
+	font-family:微软雅黑, 黑体;
+	font-size:24px;
+	font-weight:bold;
+	line-height: normal;
+	margin-top:20px;
+	font-size-adjust:none;
+	font-style:normal;
+}
+#headpA_blue #lts {
+	width:470px;
+	float:left;
+	padding-left:30px;
+	font-family:微软雅黑, 黑体;
+	font-size:14px;
+	font-weight:bold;
+	line-height: normal;
+	margin-top:30px;
+	font-size-adjust:none;
+	font-style:normal;
+}
+#headpA_blue #rt {
+	width:450px;
+	height:27px;
+	margin:38px 0 0 0;
+	float:right;
+}
+#nav {
+	list-style: none;
+	margin: 0 3px;
+	padding: 0px;
+}
+#nav li.current_item {
+	float: left;
+	height: 27px;
+	background:url(../images/headpA_blue04.gif) top right no-repeat;
+	margin: 0 5px 0 0;
+	white-space: nowrap;
+}
+#nav .current_item a {
+	color: #FFFFFF;
+	display: block;
+	background:url(../images/headpA_blue03.gif) top left no-repeat;
+	text-decoration:underline;
+	padding: 0px 12px 0px 12px;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 27px;
+}
+#nav li {
+	text-decoration:underline;
+	background:url(../images/headpA_blue02.gif) top right no-repeat;
+	float: left;
+	height: 31px;
+	margin: 0 5px 0 0px;
+	white-space: nowrap;
+}
+#nav .item a {
+	color: #098bce;
+	text-decoration:underline;
+	background:url(../images/headpA_blue05.gif) top left no-repeat;
+	display: block;
+	padding: 0px 12px 0px 12px;
+	font-size:14px;
+	line-height: 27px;
+}

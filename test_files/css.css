@@ -1,0 +1,416 @@
+body {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	line-height: 20px;
+	color: #333;
+}
+.tab_white, .table_white {
+	background-color: #FFFFFF;
+}
+form {
+	margin: 0px;
+}
+img {
+	border-style: none;
+}
+textarea {
+	font-size: 14px;
+}
+.cls {
+	clear:both;
+	margin:0 auto;
+	padding:0;
+}
+form {
+	margin: 0px;
+}
+img {
+	border-style: none;
+}
+/*文字颜色样式*/
+.red {
+	color: #e60000;
+}
+.green {
+	color: #0f862c;
+}
+.darkgreen {
+	color: #739616;
+}
+.gray {
+	color: #999999;
+}
+.orange {
+	color: #f18700;
+}
+.white {
+	color: #ffffff;
+}
+.yellow {
+	color: #e3c600;
+}
+.blue {
+	color: #098bce;
+}
+.blueg {
+	color: #23b4ae;
+}
+.darkblue {
+	color: #056292;
+}
+/*文字大小样式*/
+.font12 {
+	font-size: 12px;
+}
+.font14 {
+	font-size: 14px;
+}
+.font16 {
+	font-size: 16px;
+}
+.bold {
+	font-weight: bold;
+}
+/*文字放向样式*/
+.center {
+	text-align:center;
+	}
+.right {
+	text-align: right;
+}
+/*点击更多文字样式*/
+.more {
+	text-align: right;
+	padding-right: 20px;
+}
+.lb_line {
+	background-image: url(//i1.hdfimg.com/images/common/dotline.gif);
+	background-repeat: repeat-x;
+	height: 5px;
+}
+/*链接*/
+a {
+	color: #333;
+}
+a.underline {
+	text-decoration: underline;
+}
+a.black_link {
+	color: #333;
+}
+a.black_link:active, a.black_link:hover {
+	color: #333;
+
+}a.black_link2 {
+	color: #333;
+	text-decoration:none;
+}
+a.black_link2:active, a.black_link2:hover {
+	color: #333;
+	text-decoration:underline;
+}
+a.blue_link {
+	color: #098bce;
+}
+a.blue_link:active, a.blue_link:hover {
+	color: #098bce;
+}
+a.blue_link2 {
+	color: #098bce;
+	text-decoration:none
+}
+a.blue_link2:active, a.blue_link2:hover {
+	color: #098bce;
+	text-decoration:underline;
+}
+a.blueg_link {
+	color: #23b4ae;
+}
+a.blueg_link:active, a.blueg_link:hover {
+	color: #23b4ae;
+}
+a.blueg_link2 {
+	color: #23b4ae;
+	text-decoration:none;
+}
+a.blueg_link2:active, a.blueg_link2:hover {
+	color: #23b4ae;
+	text-decoration:underline;
+}
+a.darkblue_link {
+	color: #056292;
+}
+a.darkblue_link:active, a.darkblue_link:hover {
+	color: #056292;
+}
+a.darkblue_link2 {
+	color: #056292;
+	text-decoration:none;
+}
+a.darkblue_link2:active, a.darkblue_link2:hover {
+	color: #056292;
+	text-decoration:underline;
+}
+a.orange_link {
+	color: #f18700;
+}
+a.orange_link:active, a.orange_link:hover {
+	color: #f18700;
+}
+a.orange_link2 {
+	color: #f18700;
+	text-decoration:none;
+}
+a.orange_link2:active, a.orange_link2:hover {
+	color: #f18700;
+	text-decoration:underline;
+}
+a.darkgreen_link {
+	color: #739616;
+}
+a.darkgreen_link:active, a.darkgreen_link:hover {
+	color: #739616;
+}
+a.darkgreen_link2 {
+	color: #739616;
+	text-decoration:none;
+}
+a.darkgreen_link2:active, a.darkgreen_link2:hover {
+	color: #739616;
+	text-decoration:underline;
+}
+a.gray_link {
+	color: #999999;
+}
+a.gray_link:active, a.gray_link:hover {
+	color: #999999;
+}
+a.gray_link2 {
+	color: #999999;
+	text-decoration:none;
+}
+a.gray_link2:active, a.gray_link2:hover {
+	color: #999999;
+	text-decoration:underline;
+}
+a.white_link {
+	color: #fff;
+}
+a.white_link:active, a.white_link:hover {
+	color: #fff;
+}
+a.white_link2 {
+	color: #fff;
+	text-decoration:none;
+}
+a.white_link2:active, a.white_link2:hover {
+	color: #fff;
+	text-decoration:underline;
+}
+a.yellow_link {
+	color: #bea515;
+}
+a.yellow_link:active, a.yellow_link:hover {
+	color: #bea515;
+}
+a.yellow_link2 {
+	color: #bea515;
+	text-decoration:none;
+}
+a.yellow_link2:active, a.yellow_link2:hover {
+	color: #bea515;
+	text-decoration:underline;
+}
+
+
+
+
+
+.p_bar {
+	clear: both;
+	line-height: normal;
+}
+.p_bar a {
+	float: left;
+	padding: 4px 4px 2px 4px;
+	font-size: 12px;
+	color: #333;
+	line-height: 14px;
+	text-decoration: none;
+}
+.p_bar a.p_num {
+	background-color: #FFFFFF;
+	border: 1px #CCC solid;
+	margin-right: 4px;
+}
+.p_bar a:hover.p_num {
+	background-color: #DDE9F5;
+	border: 1px #CEE1F0 solid;
+	text-decoration: none;
+}
+.p_bar a.p_curpage {
+	padding: 5px 4px 2px 4px;
+	border-style: none;
+	margin-right: 4px;
+	font-weight: bold;
+}
+.p_bar a.p_text {
+	background-color: #FFFFFF;
+	border: 1px #CCC solid;
+	margin-right: 4px;
+}
+.p_bar input {
+	float: left;
+	margin-right: 4px;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 2px 0px 0px 4px;
+	border: 1px #CCC solid;
+	width: 22px;
+	height: 18px;
+}
+.p_bar button {
+	float: left;
+	height: 22px;
+	padding: 1px;
+	border: 1px #CCC solid;
+	width: 25px;
+	line-height: 14px;
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.p_bar button:hover {
+	background-color: #DDE9F5;
+	border: 1px #CEE1F0 solid;
+}
+/* input */
+input[type=text].btn1, input[type=password].btn1, input[type=button].btn1, input[type=submit].btn1, input[type=reset].btn1 {
+	color: #7E7E7E;
+	font-size: 12px;
+	border: 1px #6E6E6E solid;
+}
+input[type=image].btn1 {
+	border-style: none;
+}
+input[type=button].btn1, input[type=submit].btn1, input[type=reset].btn1 {
+	background-color: white;
+}
+
+div.bt1 a {
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #f2ffee;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #AAA;
+	border-bottom: 1px solid #66ae55;
+	border-right: 1px solid #66ae55;
+	float: left;
+	font-size: 12px;
+	color: #000;
+}
+div.bt1 a:hover {
+	background-color: #f49c00;
+	color: #fff;
+}
+
+
+a.button_01 {color:#000; text-decoration:none; height:29px; line-height:29px; float:left; margin-right:10px; display:block; cursor:pointer;}
+a.button_01 span {display:block; height:29px;}
+a.button_01 span.ct{float:left; padding:0 0 0 11px; background:url(//i1.hdfimg.com/images/common/botton01_01.gif);}
+a.button_01 span.rgt{float:left; width:11px; background:url(//i2.hdfimg.com/images/common/botton01_02.gif);}
+a.button_01 span.cls{clear:both}
+
+a.button_02 {color:#000; text-decoration:none; height:29px; line-height:29px; float:left; margin-right:10px; display:block; cursor:pointer;}
+a.button_02 span {display:block; height:29px;}
+a.button_02 span.ct{float:left; padding:0 0 0 11px; background:url(//i1.hdfimg.com/images/common/botton02_01.gif);}
+a.button_02 span.rgt{float:left; width:11px; background:url(//i2.hdfimg.com/images/common/botton02_02.gif);}
+a.button_02 span.cls{clear:both}
+
+div#mini_search {
+    width:291px;
+    height:23px;
+    background:url(//i1.hdfimg.com/images/loginbar/miniserch_bg12.gif) no-repeat;
+    margin-top:0px;
+    float:right;
+}
+
+#loginframe_login {
+    background:url(//i2.hdfimg.com/images/loginbar/02.gif) no-repeat;
+    width:40px;
+    height:20px;
+    margin-top:1px;
+    border:0;
+}
+
+div#mini_search span {
+    background:url(//i1.hdfimg.com/images/loginbar/miniserch_button12.gif) no-repeat;
+    width:55px;
+    height:23px;
+    float:right;
+    padding:0px;
+    margin:0px;
+    border:none;
+    display:block;
+    line-height:23px;
+    text-align:center;
+    font-size:12px;
+    cursor:pointer;
+}
+
+div#mini_search input {
+    height: 12px;
+    width:200px;
+    font-size:12px;
+    line-height:12px;
+    float:right;
+    border:medium none transparent;
+    margin-top:6px;
+    font-family:inherit;
+    outline-color:-moz-use-text-color;
+    outline-style:none;
+    outline-width:0;
+    color:#999;
+}
+#el_count {font-size:12px;}
+#el_count a{text-decoration:none;}
+#el_count a:visited{text-decoration:none;}
+#el_count a:hover{text-decoration:none;}
+#el_count a.new{color:#D70300;}
+#el_count a.none{color:#000000;}
+#el_hello {font-size:14px;margin-right:25px;}
+
+span#loginbar_user_msg_new {
+    background:url(//i1.hdfimg.com/msg/msgnew.gif) no-repeat;
+    padding-left:16px;
+}
+span#loginbar_user_msg {
+    background:url(//i1.hdfimg.com/msg/msg.gif) no-repeat;
+    padding-left:16px;
+}
+form#loginbar #username, form#loginbar #password{
+    border: 1px solid rgb(126, 126, 238); color: rgb(126, 126, 238); font-size: 12px;
+}
+#searchform_left {
+    height:38px;
+    background-image: url(//i2.hdfimg.com/images/loginbar/01.gif); 
+    background-repeat:repeat-x;
+    background-position:top; 
+    padding:10px 0 0 10px;
+    float:left;
+    width:570px;
+}
+#searchform_right {
+    height:37px;
+    background-image: url(//i2.hdfimg.com/images/loginbar/01.gif); background-repeat:repeat-x;
+    background-position:top; 
+    float:right;
+    padding:6px 10px;
+    height:30px;
+    width:380px;
+}

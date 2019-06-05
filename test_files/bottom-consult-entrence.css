@@ -1,0 +1,148 @@
+/* ��ѯ����� */
+
+/* ie����position:fixed��Ԫ�ض��� */
+body{
+   _background-image:url(//pvstat.haodf.com/pvstat.gif); /*for IE6��Ҳ������һ��ͼƬURL���Ƿ�������ļ�����ν*/
+   _background-attachment:fixed;   /* ����ǹؼ�֮һ��һ��Ҫfixed,������scroll */
+}
+/* ie����position:fixed��Ԫ�ض��� */
+
+.consult-box{
+    /* �޸�ie��margin��0 auto��ʧЧ */
+    text-align: center;
+    /* �޸�ie��margin��0 auto��ʧЧ */
+
+    /* ҽԺҳ��Ŵ�����ť���ڵ����� */
+    z-index:1000;
+
+    text-align: center;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    width: 250px;
+    height: 206px;
+    box-sizing: border-box;
+    background: #F6F6F6;
+    border: 1px solid #DCDCDC;
+    /* ie����position:fixed���� */
+    _position: absolute;
+    _clear: both;
+    _top:expression(eval(document.compatMode &&
+               document.compatMode=='CSS1Compat') ?
+               documentElement.scrollTop
+               +(documentElement.clientHeight-this.clientHeight) - 10
+               : document.body.scrollTop
+               +(document.body.clientHeight-this.clientHeight) - 10);
+    /* ie����position:fixed���� */
+    /* �����иߣ���Ϊ��ͬҳ�����õ�ȫ���и߲�ͬ */
+    line-height: 20px;
+    font-family: "Helvetica","Arial","PingFang SC","SimHei","SimSun","sans-serif" !important;
+}
+
+.c-b-topbar{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 250px;
+    border-top: 2px solid #3F89EC;
+}
+
+.c-b-close{
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.c-b-title-box{
+    margin-top: 12px;
+    margin-left: 12px;
+
+    text-align: left;
+    font-size: 16px;
+    color: #000000;
+}
+.c-b-content{
+    width: 224px;
+    height: 110px;
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    outline:none;
+    resize: none;
+    line-height: 20px;
+    overflow: hidden;
+    background: #FFF;
+    border: 1px solid #DCDCDC;
+    font-size: 14px;
+    color: #000;
+    font-family: "PingFang SC","Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+}
+.focusOn{
+    font-size: 14px !important;
+    color: #646464 !important;
+}
+.c-b-commit{
+    display: block;
+    width: 116px;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+    text-align: center;
+
+    font-size: 14px;
+    background: #3F89EC;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    z-index: 1000;
+    font-family: "Helvetica","Arial","PingFang SC","SimHei","SimSun","sans-serif" !important;
+}
+.c-b-commit:hover{
+    text-decoration: none;
+    background-color: #2771D4;
+    color:#fff;
+}
+/* ��ѯ����� */
+/* ��ѯС���� */
+.consult-box-min {
+    z-index:1000;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 13px;
+    width: 48px;
+    height: 134px;
+    background: #2db4f8;
+    border-radius: 9px;
+
+    /* ie����position:fixed���� */
+    _position: absolute;
+    _clear: both;
+    _top:expression(eval(document.compatMode &&
+               document.compatMode=='CSS1Compat') ?
+               documentElement.scrollTop
+               +(documentElement.clientHeight-this.clientHeight) - 10
+               : document.body.scrollTop
+               +(document.body.clientHeight-this.clientHeight) - 10);
+    /* ie����position:fixed���� */
+    z-index: 1000;
+    font-family: "Helvetica","Arial","PingFang SC","SimHei","SimSun","sans-serif" !important;
+}
+.c-b-m-text {
+    margin: 0;
+    padding: 0;
+    background: url(//i1.hdfimg.com/homepage/images/heart_bo.png) center 9px no-repeat;
+    background-size: 35px 28px;
+    letter-spacing: 20px;
+    padding-left: 14px;
+    padding-top: 43px;
+    line-height: 21px;
+    color: #ffffff;
+    font-size: 21px;
+}
+/* ��ѯС���� */

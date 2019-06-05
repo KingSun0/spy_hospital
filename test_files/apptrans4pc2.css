@@ -1,0 +1,275 @@
+/*case流结束处*/
+.mengall .download_guide{
+	width: 200px;
+	margin:0 auto;
+	text-align: center;
+	height: 20px;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+.mengall .mengbot a{
+	vertical-align: text-bottom;
+}
+.mengall .mengbot a{
+	margin-left:7px;
+}
+.ask_doctor{
+	display: none;
+	width:283px;
+	height:491px;
+	position: absolute;
+	top:20px;
+	left:50%;
+	margin-left:-137px;
+	background: url(../images/ask_bac.png) no-repeat;
+	z-index: 99999 !important;
+}
+.ask_doctor ul{
+	margin-top:25px;
+}
+.ask_doctor li{
+	margin:10px 20px;
+	border-bottom: 1px dashed #ddd;
+}
+.ask_doctor h5.item_title{
+	font-size: 14px;
+	font-family:'microsoft ya hei';
+	color:#535353;
+	font-weight:lighter;
+}
+.ask_doctor li img{
+	text-align:center;
+	margin:0 auto;
+	display: block;
+}
+.ask_doctor li img.similar_content{
+	width:89px;
+	margin:10px auto;
+}
+.ask_doctor li img.newcase{
+	width:243px;
+}
+.ask_doctor img.close_dialog{
+	position: absolute;
+	width: 10px;
+	top:25px;
+	right:20px;
+	display: block;
+	cursor: pointer;
+}
+/*文章结束处*/
+.moreservice_list{
+	position: relative;
+	margin: 20px 0 40px 0;
+}
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	content: "";
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+/*文章页的重新设计*/
+.moreservice_item{
+	float:left;
+    font-size: 16px;
+    font-family: "microsoft ye hei";
+    color:#fff;
+	cursor:pointer;
+}
+.see_doctor_title{
+	padding:9px 20px;
+	background: #46a0f0;
+	border-radius: 5px;
+	width: 48px;
+}
+.see_doctor_items{
+	display: none;
+	position: absolute;
+	top:42px;
+	left:0;
+}
+
+.see_doctor_items .arrow_up{
+	position: absolute;
+	top:0;
+	left:27px;
+	width:15px;
+	height: 9px;
+	background: url(../images/arrow_up.jpg) no-repeat;
+}
+.see_doctor_item{
+	color:#333;
+	font-size: 14px;
+	background: #f0f0f0;
+	margin-top:8px;
+	padding:10px;
+	border-radius:3px;
+	border:1px solid #cccccc;
+}
+.see_doctor_item p{
+	margin-top:5px;
+	line-height: 28px;
+	position: relative;
+	width: 158px;
+}
+.see_doctor_item a{
+    color:#2d7fec;
+    background: #fff;
+    border:1px solid #2d7fec;
+    display: block;
+    width: 49px;
+    height: 26px;
+    text-align: center;
+    line-height:26px;
+    margin-left:5px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+a.booking_doctor{
+	display: block;
+	background: #ff8c28;
+	border-radius: 5px;
+	margin-left:14px;
+	padding: 9px 20px;
+}
+.new_article{
+	position: relative;
+}
+.new_article .new_article_title{
+	color:#2d7fec;
+	margin-left:15px;
+	padding:9px 0;
+}
+.new_article .new_article_content{
+	left:27px;
+	top:34px;
+	margin-left: 0;
+}
+.collcet_article{
+ 	display: block;
+	color:#2d7fec;
+	font-size: 14px;
+	/*padding: 9px 0 9px 27px;*/
+	padding: 9px 0;
+	margin-left:15px;
+	/*background: url(../images/collect_article.png) left center no-repeat;*/
+}
+a.collcet_article img{
+  vertical-align: sub;
+  margin-right: 5px;
+}
+.share_article{
+	position: relative;
+}
+.share_article_title{
+	color:#2d7fec;
+	font-size: 14px;
+	padding: 9px 0 9px 22px;
+	margin-left:10px;
+	background: url(../images/share_article.png) left center no-repeat;
+}
+.bshare-custom{
+	display: none;
+	width: 168px;
+	height: 42px;
+	text-align: center;
+	background: url(../images/share_article_method.png) no-repeat;
+	position: absolute;
+	top:36px;
+	right:0;
+}
+.bshare-custom a{
+	padding-left: 16px !important;
+	*margin-top:18px !important;
+	*padding-right:5px !important;
+}
+/*医院简介页面,医院地图,*/
+.hospital-name{
+	color:#098bce;
+	font-size: 16px;
+}
+.hospital-erweima{
+	width: 107%;
+	*margin-right:-20px;
+	margin-left: -11px;
+	position: relative;
+	z-index: 10;
+	bottom: -5px;
+}
+.hospital-erweima-left{
+	padding-left:0;
+	width:246px;
+	background: url(../images/hospitalinfo_bac.png) no-repeat left top;
+}
+.hospital-erweima-img{
+	width: 107px;
+	height: 107px;
+	background-color:#fff;
+}
+.hospital-erweima-img img {
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+}
+.hospital-erweima-text {
+  font-size: 18px;
+  color: #000;
+  margin-top: 22px;
+  padding-left: 30px;
+}
+.hospital-erweima-text span {
+  color: #0057ce;
+}
+/*医院 出停诊,科室页面,科室简介页面*/
+.hospital-annnounce{
+	width:308px;
+	height: 104px;
+	border:1px solid #088bcf;
+	border-radius: 3px;
+	background: #f4fcff;
+}
+
+.hospital-announce-left{
+	width:210px;
+	height: 86px;
+	float: left;
+}
+.hospital-announce-text{
+	margin-left:8px;
+	color:#000;
+	font-size: 15px;
+	padding: 22px 15px 5px 25px;
+	width:160px;
+	font-family: "microsoft ya hei";
+	border-bottom: 1px dashed #000;
+}
+.hospital-announce-text span {
+  color: #0057ce;
+}
+.download_text{
+	font-size: 15px;
+	color:#000;
+	font-family: "microsoft ya hei";
+	text-align: center;
+	margin-top:7px;
+}
+.hospital-announce-img{
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-top:10px;
+}
+.hospital-announce-img img{
+	width: 100%;
+	height: 100%;
+}
+/**/

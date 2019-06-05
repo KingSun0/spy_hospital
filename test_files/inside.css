@@ -1,0 +1,353 @@
+/*模块内部样式*/
+/*介绍样式*/
+.about {
+	margin: 10px 0px 0px 0px;
+}
+.about_top {
+	padding: 2px 20px 2px 0px;
+	vertical-align: top;
+}
+.about_img {
+	width: 20px;
+	vertical-align: top;
+}
+.about_border {
+	border: 1px #999 dotted;
+}
+.about_jibing {
+	padding: 0px 0px 10px 0px;
+}
+/*科室列表样式*/
+.kslb {
+	margin: 10px 0px 0px 0px;
+}
+.kslb td {
+	padding: 2px 3px 3px 0px;
+	color: #098bce;
+	vertical-align: top;
+}
+.kslb .title {
+	font-size: 14px;
+	font-weight: bold;
+}
+/*疾病列表样式*/
+.jbp {
+	margin: 10px 0px 5px 0px;
+}
+.jblb {
+	margin: 10px 0px 0px 0px;
+}
+.jblb td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.jbxx td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.jbxx th {
+	padding: 7px 5px 0px 0px;
+	vertical-align: top;
+}
+/*点评样式*/
+.hzdp {
+	margin: 10px 0px 0px 0px;
+}
+.hzdp td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+/*经典样式*/
+.jdp {
+	margin: 10px 0px 5px 0px;
+}
+.jdlb td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.jdzx {
+	margin: 10px 0px 0px 0px;
+}
+.jdzx td {
+	padding: 2px 3px 2px 0px;
+}
+/*科室样式*/
+.kszx {
+	margin: 10px 0px 0px 0px;
+}
+.kszx td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+/*医生样式*/
+.ysp {
+	margin: 10px 0px 5px 0px;
+}
+.yszx {
+	margin: 10px 0px 0px 0px;
+}
+.yszx td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.yslb td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+/*文章样式*/
+.wzp {
+	margin: 10px 0px 5px 0px;
+}
+.wzlb td {
+	padding: 4px 3px 4px 0px;
+	vertical-align: top;
+}
+.wzzx {
+	margin: 10px 0px 0px 0px;
+}
+.wzzx td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.wzzx_jb td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+/*出诊时间样式*/
+.czsj {
+	margin: 10px 0px 0px 0px;
+}
+.czsj td {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+/*好评样式*/
+.hplb {
+	margin: 10px 0px 0px 0px;
+}
+.hplb {
+	padding: 2px 3px 2px 0px;
+	vertical-align: top;
+}
+.hptj {
+	margin: 10px 0px 0px 0px;
+}
+.hptj td {
+	padding: 4px 5px 4px 3px;
+	vertical-align: top;
+}
+.lb_line {
+	background-image: url(//i1.hdfimg.com/images/common/dotline.gif);
+	background-repeat: repeat-x;
+	height: 5px;
+}
+/*滚动样式*/
+.message_tab {
+	margin: 5px 0px 0px 0px;
+}
+.message_top_left {
+	width: 5px;
+	height: 4px;
+	background-repeat: no-repeat;
+}
+.message_
+ {
+	width: 5px;
+	height: 4px;
+	background-repeat: no-repeat;
+}
+.message_top_middle {
+	height: 4px;
+	background-repeat: repeat-x;
+}
+.message_middle_left {
+	width: 5px;
+	background-repeat: repeat-y;
+}
+.message_middle_right {
+	width: 5px;
+	background-repeat: repeat-y;
+}
+.message_bottom_left {
+	width: 5px;
+	height: 4px;
+	background-repeat: no-repeat;
+}
+.message_bottom_right {
+	width: 5px;
+	height: 4px;
+	background-repeat: no-repeat;
+}
+.message_bottom_middle {
+	height: 4px;
+	background-repeat: repeat-x;
+}
+.message_img {
+	width: 78px;
+	height: 24px;
+	background-repeat: no-repeat;
+}
+.message_title {
+	padding: 0px 10px 0px 15px;
+	color: #098bce;
+}
+/*就医经验*/
+.jyjy {
+	margin: 10px 0px 0px 0px;
+}
+.jyjy .tab {
+	float: right;
+	text-align: center;
+	width: 50px;
+	border: 1px #ffc478 solid;
+}
+.jyjy .img {
+	width: 50px;
+}
+.jyjy .no {
+	padding: 5px 0px 5px 0px;
+	background-color: #fdedd9;
+}
+/*疾病列表结果页*/
+.lbjg {
+	margin: 10px 0px 0px 0px;
+}
+.lbjg td {
+	padding: 0px 5px 5px 5px;
+	vertical-align: top;
+}
+.lbjg th {
+	padding: 5px 0px 0px 2px;
+	vertical-align: top;
+}
+.input_jibing {
+	width: 350px;
+	height: 20px;
+	border: 1px #9ec534 solid;
+	margin: 0px 5px 0px 5px;
+}
+.ysjs {
+	margin: 10px 0px 0px 0px;
+}
+.ysjs td {
+	padding: 0px 5px 0px 0px;
+	vertical-align: top;
+}
+.ysjs th {
+	padding: 5px 0px 0px 2px;
+	vertical-align: top;
+}
+.ysczsj {
+	border-collapse: collapse;
+}
+.ysczsj td {
+	border: 1px #f3982a solid;
+	background-color: #fffbf7;
+}
+/*资讯频道*/
+/*患者信息*/
+.caseline_gray {
+	background-color: #d1d1d1;
+	height: 1px;
+}
+.case_zxlb {
+	margin-top: 10px;
+}
+.case_zxlb td {
+	vertical-align: top;
+}
+.case_zxlb_jg {
+	border: #d1d1d1 1px solid;
+	padding: 5px;
+	background-color: #edf4fc;
+	margin-bottom: 20px;
+}
+.case_kslb {
+	margin-top: 10px;
+}
+.case_kslb td {
+	padding: 5px 5px 0px 40px;
+	font-size: 14px;
+}
+.case_input {
+	vertical-align: top;
+}
+.case_input td {
+	padding: 0px 5px 10px 5px;
+}
+.case_input_border {
+	border: #d1d1d1 1px solid;
+}
+/*首页*/
+.sylb {
+	margin-top: 10px;
+}
+.sylb td {
+	vertical-align: top;
+	padding: 0px 3px 2px 0px;
+}
+.sytj {
+	margin-top: 10px;
+}
+.sytj td {
+	padding: 0px 3px 2px 0px;
+}
+.syss {
+	margin-top: 10px;
+}
+.syss .bj {
+	background-image: url(//i1.hdfimg.com/images/common/iconsearch48.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-position: right;
+}
+.yy_txt_tab {
+	padding: 10px 15px 0px 0px;
+	float: right;
+}
+
+/*
+ **add normal and classic questions for SEO
+ **20120411
+ */
+.tabs{ width:365px;margin-bottom:10px;}
+.tabMenu { border-bottom: 1px solid #F18700;}
+.tabMenu li {
+    background: none repeat scroll 0 0 #f9bf76;
+    border: 1px solid #F18700;
+    bottom: -1px;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 5px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 129px;
+}
+.tabMenu li.tabMenu-active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    font-weight: bold;
+}
+.pt5{ padding-top:5px;}
+.clearfix:after {
+clear: both;
+content: ".";
+display: block;
+height: 0;
+visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.contents{border:1px solid  #F18700; border-top:none;}
